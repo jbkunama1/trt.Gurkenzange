@@ -7,7 +7,7 @@
 ![Werkstoff](https://img.shields.io/badge/Werkstoff-Acrylglas-f59e0b?style=for-the-badge)
 
 <p align="center">
-  <img src="assets/logo.png" alt="Logo Gurkenzange" width="140">
+  <img src="assets/logo.jpeg" alt="Logo Gurkenzange" width="140">
 </p>
 
 Ein sofort nutzbares Unterrichtsprojekt für **Realschule/Gemeinschaftsschule Klasse 6** im Fach Technik. Die Reihe umfasst **6 Unterrichtseinheiten** zur Planung, Herstellung und Reflexion einer Gurken- bzw. Salatzange aus Acrylglas.
