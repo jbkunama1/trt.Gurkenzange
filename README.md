@@ -42,27 +42,6 @@ Die Schülerinnen und Schüler planen, sägen, schleifen und verformen einen Kun
 5. Funktionsprüfung und Optimierung
 6. Präsentation, Reflexion und Bewertung
 
-## GitHub Pages
-
-Die Projektseite kann direkt über GitHub Pages veröffentlicht werden. Lege dazu alle Dateien in ein Repository und aktiviere Pages über den Branch `main` bzw. `/root`.
-
-## Vorschlag für Repository-Struktur
-
-```text
-.
-├── README.md
-├── index.html
-├── logo.svg
-├── unterrichtsreihe_gurkenzange.md
-└── assets/
-    ├── logo.png
-    ├── page1.png
-    ├── page2_designhilfe.png
-    ├── designhilfe_1.png
-    ├── designhilfe_2.png
-    ├── designhilfe_3.png
-    ├── designhilfe_4.png
-    └── designhilfe_5.png
 ```
 
 ## Unterstützen
