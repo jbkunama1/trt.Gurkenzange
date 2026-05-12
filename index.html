@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gurkenzange – Unterrichtsreihe Klasse 6</title>
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&f[]=clash-display@500,600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --text-sm: clamp(0.875rem, 0.8rem + 0.25vw, 1rem);
+      --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+      --text-lg: clamp(1.125rem, 1rem + 0.75vw, 1.5rem);
+      --text-xl: clamp(1.5rem, 1.2rem + 1.25vw, 2.25rem);
+      --text-2xl: clamp(2.2rem, 1.4rem + 3vw, 4rem);
+      --space-2: .5rem; --space-3:.75rem; --space-4:1rem; --space-6:1.5rem; --space-8:2rem; --space-12:3rem; --space-16:4rem;
+      --font-body:'Satoshi', system-ui, sans-serif;
+      --font-display:'Clash Display', 'Satoshi', sans-serif;
+      --bg:#f7f6f2; --surface:#ffffff; --surface-2:#eef5f4; --text:#172126; --muted:#58656d; --line:#d8e1e1; --primary:#0f766e; --primary-2:#14b8a6;
+      --shadow:0 20px 60px rgba(15, 118, 110, .12);
+      --radius:24px;
+    }
+    [data-theme="dark"]{--bg:#111827;--surface:#172126;--surface-2:#1f2d34;--text:#ecfeff;--muted:#b6c7cd;--line:#2c4048;--primary:#2dd4bf;--primary-2:#5eead4;--shadow:0 20px 60px rgba(0,0,0,.35)}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:var(--font-body);background:radial-gradient(circle at top right, rgba(20,184,166,.12), transparent 35%), var(--bg);color:var(--text);line-height:1.6}
+    a{color:inherit} img{max-width:100%;display:block} .wrap{width:min(1180px, calc(100% - 2rem));margin:auto}
+    .skip{position:absolute;left:-9999px}.skip:focus{left:1rem;top:1rem;background:var(--surface);padding:.75rem 1rem;border-radius:12px;z-index:10}
+    header{position:sticky;top:0;backdrop-filter:blur(14px);background:color-mix(in srgb, var(--bg) 82%, transparent);border-bottom:1px solid var(--line);z-index:20}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:1rem 0;gap:1rem}.brand{display:flex;align-items:center;gap:.8rem;font-weight:700}.brand img{width:44px;height:44px;border-radius:14px;box-shadow:var(--shadow)}
+    .navlinks{display:flex;gap:1rem;flex-wrap:wrap}.navlinks a{text-decoration:none;color:var(--muted)} .navlinks a:hover,.navlinks a.active{color:var(--text)}
+    .toggle{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:.75rem 1rem;min-width:44px;min-height:44px}
+    .hero{padding:clamp(3rem,8vw,7rem) 0 3rem}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:2rem;align-items:center}
+    .badge{display:inline-flex;gap:.5rem;align-items:center;padding:.45rem .8rem;border-radius:999px;background:var(--surface-2);color:var(--primary);font-size:var(--text-sm);font-weight:700}
+    h1,h2,h3{font-family:var(--font-display);line-height:1.05;margin:0 0 1rem} h1{font-size:var(--text-2xl)} h2{font-size:var(--text-xl)} h3{font-size:var(--text-lg)} p{margin:.3rem 0 1rem;color:var(--muted)}
+    .cta{display:flex;gap:1rem;flex-wrap:wrap;margin-top:1.5rem}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:.9rem 1.2rem;border-radius:16px;text-decoration:none;font-weight:700;border:1px solid var(--line);background:var(--surface)} .btn.primary{background:linear-gradient(135deg,var(--primary),var(--primary-2));color:white;border:none}
+    .card{background:color-mix(in srgb, var(--surface) 88%, transparent);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+    .hero-card{padding:1rem}.hero-card img{border-radius:20px;border:1px solid var(--line)}
+    section{padding:1.5rem 0 3rem}.grid-3,.grid-2{display:grid;gap:1.2rem}.grid-3{grid-template-columns:repeat(3,1fr)} .grid-2{grid-template-columns:repeat(2,1fr)}
+    .pane{padding:1.25rem} .kpi{font-size:2rem;font-family:var(--font-display);color:var(--primary)}
+    .timeline{display:grid;gap:1rem}.step{display:grid;grid-template-columns:auto 1fr;gap:1rem;align-items:start}.num{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--primary);color:white;font-weight:700}
+    .gallery{display:grid;grid-template-columns:repeat(5,1fr);gap:1rem}.gallery figure{margin:0}.gallery img{aspect-ratio:1/1;object-fit:cover;border-radius:20px;border:1px solid var(--line);background:#e5e7eb}.gallery figcaption{padding:.5rem .2rem 0;font-size:.92rem;color:var(--muted)}
+    .accordion details{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:1rem 1.1rem}.accordion{display:grid;gap:1rem}.accordion summary{cursor:pointer;font-weight:700}
+    footer{padding:2rem 0 4rem;color:var(--muted)}
+    @media (max-width: 900px){.hero-grid,.grid-3,.grid-2,.gallery{grid-template-columns:1fr}.nav{align-items:flex-start;flex-direction:column}.navlinks{gap:.75rem}.gallery img{aspect-ratio:16/10}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Zum Inhalt springen</a>
+  <header>
+    <div class="wrap nav">
+      <div class="brand">
+        <img src="assets/logo.png" alt="Logo Gurkenzange" width="44" height="44" loading="eager">
+        <div>
+          <div>Gurkenzange</div>
+          <small style="color:var(--muted)">Technik Klasse 6 · Bildungsplan BW</small>
+        </div>
+      </div>
+      <nav class="navlinks" aria-label="Hauptnavigation">
+        <a href="#reihe">Reihe</a>
+        <a href="#ablauf">Ablauf</a>
+        <a href="#design">Designhilfe</a>
+        <a href="#sicherheit">Sicherheit</a>
+      </nav>
+      <button class="toggle" data-theme-toggle aria-label="Farbschema wechseln">◐</button>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="badge">Acrylglas · Planen · Sägen · Biegen</span>
+          <h1>Unterrichtsreihe Gurkenzange aus Kunststoff</h1>
+          <p>Eine moderne, direkt einsetzbare 6-UE-Reihe für Realschule und Gemeinschaftsschule in Klasse 6. Die Lernenden entwerfen und fertigen aus Acrylglas eine funktionale Küchenzange und reflektieren ihren Herstellungsprozess.</p>
+          <div class="cta">
+            <a class="btn primary" href="unterrichtsreihe_gurkenzange.md" target="_blank" rel="noopener noreferrer">Unterrichtsplan öffnen</a>
+            <a class="btn" href="#design">Designideen ansehen</a>
+          </div>
+        </div>
+        <div class="card hero-card">
+          <img src="assets/page1.png" alt="Anleitungsseite zur Gurkenzange aus Acrylglas" width="900" height="1200" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section id="reihe">
+      <div class="wrap grid-3">
+        <article class="card pane"><div class="kpi">6</div><h3>Unterrichtseinheiten</h3><p>Von der Produktanalyse bis zur Präsentation mit klarer Progression.</p></article>
+        <article class="card pane"><div class="kpi">160 °C</div><h3>Thermisches Umformen</h3><p>Das Biegen wird als gezieltes Fertigungsverfahren altersangemessen eingeführt.</p></article>
+        <article class="card pane"><div class="kpi">1</div><h3>Funktionales Produkt</h3><p>Am Ende steht eine individuelle, gebrauchsfähige Zange aus Acrylglas.</p></article>
+      </div>
+    </section>
+
+    <section id="ablauf">
+      <div class="wrap grid-2">
+        <div>
+          <h2>Verlauf in 6 UE</h2>
+          <div class="timeline">
+            <div class="step"><div class="num">1</div><div><strong>Planen</strong><p>Produktanalyse, Kriterien sammeln, Entwürfe skizzieren.</p></div></div>
+            <div class="step"><div class="num">2</div><div><strong>Anzeichnen</strong><p>Skizze auf den Acrylglasstreifen übertragen und Biegelinie markieren.</p></div></div>
+            <div class="step"><div class="num">3</div><div><strong>Sägen</strong><p>Kontur exakt aussägen und Werkstück stabil führen.</p></div></div>
+            <div class="step"><div class="num">4</div><div><strong>Schleifen</strong><p>Kanten glätten, Form verbessern und Haptik prüfen.</p></div></div>
+            <div class="step"><div class="num">5</div><div><strong>Biegen</strong><p>Werkstück erhitzen, formen und kontrolliert auskühlen lassen.</p></div></div>
+            <div class="step"><div class="num">6</div><div><strong>Bewerten</strong><p>Funktion testen, präsentieren und mit Kriterien reflektieren.</p></div></div>
+          </div>
+        </div>
+        <div class="card pane accordion">
+          <h2>Schnellzugriff</h2>
+          <details open><summary>Material</summary><p>Acrylglasstreifen 500 × 40 × 3 mm, Faserstift, Laubsäge, Schleifpapier, Schraubstock und Thermo-Biegegerät.</p></details>
+          <details><summary>Kompetenzen</summary><p>Planen, herstellen, Werkstoffeigenschaften verstehen, Sicherheit beachten und Ergebnisse bewerten.</p></details>
+          <details><summary>Differenzierung</summary><p>Schablonen, Hilfekarten, Partnerfeedback und Erweiterungsaufgaben für schnelle Lernende.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section id="design">
+      <div class="wrap">
+        <h2>Designhilfe aus Seite 2</h2>
+        <p>Die folgenden Varianten können direkt als Ideengeber für die Entwurfsphase verwendet werden.</p>
+        <div class="card pane" style="margin-bottom:1rem">
+          <img src="assets/page2_designhilfe.png" alt="Designhilfe mit mehreren Zangenformen" width="900" height="1200" loading="lazy">
+        </div>
+        <div class="gallery">
+          <figure><img src="assets/designhilfe_1.png" alt="Designvariante 1" width="400" height="400" loading="lazy"><figcaption>Variante 1: gezackter Greifkopf</figcaption></figure>
+          <figure><img src="assets/designhilfe_2.png" alt="Designvariante 2" width="400" height="400" loading="lazy"><figcaption>Variante 2: breite Greifflächen</figcaption></figure>
+          <figure><img src="assets/designhilfe_3.png" alt="Designvariante 3" width="400" height="400" loading="lazy"><figcaption>Variante 3: geschwungene Federform</figcaption></figure>
+          <figure><img src="assets/designhilfe_4.png" alt="Designvariante 4" width="400" height="400" loading="lazy"><figcaption>Variante 4: Wellenprofil</figcaption></figure>
+          <figure><img src="assets/designhilfe_5.png" alt="Designvariante 5" width="400" height="400" loading="lazy"><figcaption>Variante 5: kompakte Zackenform</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="sicherheit">
+      <div class="wrap grid-2">
+        <article class="card pane"><h2>Sicherheit</h2><p>Die Schutzfolie bleibt bis zum Ende der Bearbeitung auf dem Material. Beim Biegen gilt eine klare Zonenregelung, damit nur beaufsichtigte Lernende am Wärmeplatz arbeiten.</p></article>
+        <article class="card pane"><h2>Praxisnutzen</h2><p>Die Reihe verbindet technische Grundbildung mit Produktgestaltung, Materialkunde und Reflexion. Sie eignet sich gut für Werkstattunterricht mit sichtbarem Kompetenzzuwachs.</p></article>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">Projektvorlage für GitHub Pages · Technikunterricht BW · modern, interaktiv, sofort nutzbar.</div>
+  </footer>
+  <script>
+    const root=document.documentElement; const btn=document.querySelector('[data-theme-toggle]');
+    let theme=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';
+    root.setAttribute('data-theme',theme);
+    btn.addEventListener('click',()=>{theme=theme==='dark'?'light':'dark';root.setAttribute('data-theme',theme);});
+    const links=[...document.querySelectorAll('.navlinks a')];
+    const sections=links.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
+    const io=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){links.forEach(l=>l.classList.toggle('active', l.getAttribute('href').slice(1)===e.target.id));}})},{threshold:.35});
+    sections.forEach(s=>io.observe(s));
+  </script>
+</body>
+</html>
