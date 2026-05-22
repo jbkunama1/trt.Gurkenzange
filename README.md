@@ -47,5 +47,5 @@ Die Schülerinnen und Schüler planen, sägen, schleifen und verformen einen Kun
 ## Unterstützen
 
 <a href="https://www.buymeacoffee.com/" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=%E2%98%95&slug=&button_colour=0f766e&font_colour=ffffff&font_family=Comic&outline_colour=ffffff&coffee_colour=FFDD00" alt="Buy Me A Coffee" />
+  <img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" />
 </a>
