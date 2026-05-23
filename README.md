@@ -1,5 +1,4 @@
-# Gurkenzange aus Acrylglas – Unterrichtsreihe Klasse 6
-
+Fix BuyMeACoffee link: add missing username highfish
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-ready-0f766e?style=for-the-badge&logo=githubpages&logoColor=white)
 ![Bildungsplan BW](https://img.shields.io/badge/Bildungsplan%202016-BW-blue?style=for-the-badge)
 ![Technik](https://img.shields.io/badge/Fach-Technik-334155?style=for-the-badge)
@@ -45,7 +44,6 @@ Die Schülerinnen und Schüler planen, sägen, schleifen und verformen einen Kun
 ```
 
 ## Unterstützen
-
-<a href="https://www.buymeacoffee.com/" target="_blank" rel="noopener noreferrer">
+<a href="https://www.buymeacoffee.com/highfish" target="_blank" rel="noopener noreferrer">rel="noopener noreferrer">
   <img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" />
 </a>
