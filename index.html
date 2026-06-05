@@ -31,6 +31,8 @@
     .badge{display:inline-flex;gap:.5rem;align-items:center;padding:.45rem .8rem;border-radius:999px;background:var(--surface-2);color:var(--primary);font-size:var(--text-sm);font-weight:700}
     h1,h2,h3{font-family:var(--font-display);line-height:1.05;margin:0 0 1rem} h1{font-size:var(--text-2xl)} h2{font-size:var(--text-xl)} h3{font-size:var(--text-lg)} p{margin:.3rem 0 1rem;color:var(--muted)}
     .cta{display:flex;gap:1rem;flex-wrap:wrap;margin-top:1.5rem}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:.9rem 1.2rem;border-radius:16px;text-decoration:none;font-weight:700;border:1px solid var(--line);background:var(--surface)} .btn.primary{background:linear-gradient(135deg,var(--primary),var(--primary-2));color:white;border:none}
+    .bmac{margin-left:0.75rem;display:inline-flex;align-items:center}
+    .bmac img{height:40px}
     .card{background:color-mix(in srgb, var(--surface) 88%, transparent);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
     .hero-card{padding:1rem}.hero-card img{border-radius:20px;border:1px solid var(--line)}
     section{padding:1.5rem 0 3rem}.grid-3,.grid-2{display:grid;gap:1.2rem}.grid-3{grid-template-columns:repeat(3,1fr)} .grid-2{grid-template-columns:repeat(2,1fr)}
@@ -59,7 +61,12 @@
         <a href="#design">Designhilfe</a>
         <a href="#sicherheit">Sicherheit</a>
       </nav>
-      <button class="toggle" data-theme-toggle aria-label="Farbschema wechseln">◐</button>
+      <div style="display:flex;align-items:center;gap:0.5rem">
+        <button class="toggle" data-theme-toggle aria-label="Farbschema wechseln">◐</button>
+        <a class="bmac" href="https://www.buymeacoffee.com/highfish" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=☕&slug=highfish&button_colour=22c55e&font_colour=0f172a&font_family=Lato&outline_colour=0f172a&coffee_colour=FFDD00" alt="Buy Me A Coffee" />
+        </a>
+      </div>
     </div>
   </header>
   <main id="main">
