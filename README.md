@@ -1,12 +1,7 @@
-![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-ready-0f766e?style=for-the-badge&logo=githubpages&logoColor=white)
-![Bildungsplan BW](https://img.shields.io/badge/Bildungsplan%202016-BW-blue?style=for-the-badge)
-![Technik](https://img.shields.io/badge/Fach-Technik-334155?style=for-the-badge)
-![Klasse 6](https://img.shields.io/badge/Klasse-6-14b8a6?style=for-the-badge)
-![Werkstoff](https://img.shields.io/badge/Werkstoff-Acrylglas-f59e0b?style=for-the-badge)
-[![Buy me a coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://www.buymeacoffee.com/highfish)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-ready-0f766e?style=for-the-badge&logo=githubpages&logoColor=white) ![Bildungsplan BW](https://img.shields.io/badge/Bildungsplan%202016-BW-blue?style=for-the-badge) ![Technik](https://img.shields.io/badge/Fach-Technik-334155?style=for-the-badge) ![Klasse 6](https://img.shields.io/badge/Klasse-6-14b8a6?style=for-the-badge) ![Werkstoff](https://img.shields.io/badge/Werkstoff-Acrylglas-f59e0b?style=for-the-badge) <a href="https://www.buymeacoffee.com/highfish" target="_blank" rel="noopener noreferrer"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" width="180" height="50" /></a>
 
 <p align="center">
-  <img src="/assets/logo.jpeg" alt="Logo Gurkenzange" width="140">
+  <img src="/assets/logo.jpeg" alt="Logo Gurkenzange" width="220">
 </p>
 
 Ein sofort nutzbares Unterrichtsprojekt für **Realschule/Gemeinschaftsschule Klasse 6** im Fach Technik. Die Reihe umfasst **6 Unterrichtseinheiten** zur Planung, Herstellung und Reflexion einer Gurken- bzw. Salatzange aus Acrylglas.
@@ -44,5 +39,5 @@ Die Schülerinnen und Schüler planen, sägen, schleifen und verformen einen Kun
 ## Unterstützen
 
 <a href="https://www.buymeacoffee.com/highfish" target="_blank" rel="noopener noreferrer">
-  <img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" />
+  <img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" width="180" height="50" />
 </a>
